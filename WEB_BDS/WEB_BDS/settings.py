@@ -77,10 +77,11 @@ WSGI_APPLICATION = 'WEB_BDS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'HeThong_BDS',
+        'NAME':'quanlybatdongsan',
         'USER':'root',
-        'PASSWORD':'',
-        'HOST':'localhost',
+        'PASSWORD':'123456',
+        'HOST':'127.0.0.1',
+        'PORT' : '3306',
     }
 }
 
